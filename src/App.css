@@ -5,6 +5,25 @@
   text-align: center;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+input[type="file"] {
+  margin-right: 1rem;
+}
+
+.transcription {
+  max-width: 600px;
+  text-align: left;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
